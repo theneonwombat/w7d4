@@ -13,22 +13,26 @@ body {
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color:#6288a5;
+	border-color: #4d7b9f;
+	color: #fff;
+	font-weight: 700;
+	padding: 7px 9px;
+	border-radius: 3px;
+	transition: background-color 0.3s;
+	font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 0.6875rem;
+	text-align: center;
+}
+
+.right-nav ul:last-of-type {
+	background: white;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: #233d52;
+	border-color: #233d52;
 }
 
 /*

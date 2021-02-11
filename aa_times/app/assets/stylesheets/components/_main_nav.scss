@@ -1,21 +1,30 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
 }
 
 .left-nav {
 
   > ul {
     > li {
-
+      font-size: 0.6875rem;
+      font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
     }
   }
 
   span {
+    margin: 10px;
 
   }
 }
@@ -29,7 +38,14 @@
     }
 
     > li:last-of-type {
-  
+      font-size: 15px;
+      	background-color:$lightest-gray;
+        border-color:gray;
+        padding: 7px 9px;
+        border-radius: 3px;
+        transition: background-color 0.3s;
+        font-size: 0.6875rem;
+        text-align: center;
     }
   }
   
@@ -40,5 +56,5 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background: $lightest-gray;
 }
