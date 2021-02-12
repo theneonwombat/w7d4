@@ -1,0 +1,15 @@
+.jane {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 69%;
+
+  li:hover {
+    background-color: $light-gray;
+  }
+
+  :last-child:hover {
+    text-decoration: underline;
+    background-color: white;
+  }
+}

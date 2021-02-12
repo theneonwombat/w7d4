@@ -1,1 +1,39 @@
 // Use the gear_dropdown.png screenshot as a style guide
+
+.right-nav {
+  i:last-of-type {
+    position: relative;
+  }
+
+  #gear-dropdown {
+    position: absolute;
+    top: 20px;
+    display: none;
+  }
+
+  li:last-of-type:hover {
+
+    #gear-dropdown {
+      display: block;
+    }
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+// def logged_in?
+//   !!current_user
+// end
+
+// def login(user)
+//   @current_user = 
+// end
